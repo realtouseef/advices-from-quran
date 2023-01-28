@@ -1,0 +1,11 @@
+{
+  "name": "advices-from-quran",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:realtouseef/advices-from-quran.git",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "serverless-offline": "^12.0.4"
+  }
+}
