@@ -1,0 +1,24 @@
+service: ${file(service-info.yml):service}
+# app and org for use with dashboard.serverless.com
+app: ${file(service-info.yml):app}
+org: ${file(service-info.yml):org}
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs16.x
+
+functions:
+  getAdvice:
+    handler: handler.getAdvice
+    events:
+      - httpApi:
+          path: /get-advice
+          method: get
+      - httpApi:
+          path: /get-advice/{adviceId}
+          method: get
+
+plugins:
+  - serverless-offline
