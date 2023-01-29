@@ -4,7 +4,7 @@ This `AdvicesFromQuran.json` file contains `100 Advices` alongside references fr
 
 ## Structure
 
-```json
+```jsonc
 // for now, it ends at 100, so start from 101
 { "id": 101, "description": "Advice goes here", "reference": "chapter:verse" }
 ```
