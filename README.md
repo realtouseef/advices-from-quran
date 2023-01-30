@@ -10,7 +10,7 @@ Gives you an advice based on the ID -- https://duvesmwuf9.execute-api.us-east-1.
 
 ## Structure
 
-```json
+```jsonc
 // for now, it ends at 100, so start from 101
 { "id": 101, "description": "Advice goes here", "reference": "chapter:verse" }
 ```
