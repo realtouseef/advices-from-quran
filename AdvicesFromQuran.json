@@ -382,5 +382,10 @@
     "description": "Do not repel one who asks.",
     "reference": "93:10"
   },
-  { "id": 100, "description": "Encourage feeding poor.", "reference": "107:3" }
+  { "id": 100, "description": "Encourage feeding poor.", "reference": "107:3" },
+  {
+    "id": 101,
+    "description": "Be steadfast.",
+    "reference": "8:46"
+  }
 ]
